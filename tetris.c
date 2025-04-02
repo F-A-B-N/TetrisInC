@@ -210,7 +210,7 @@ void drawGame(Tetromino *current, Tetromino *next) {
     mvprintw(HEIGHT-4+PAD_Y, PAD_X+WIDTH*2+4,  "Right:  ->");
     mvprintw(HEIGHT-3+PAD_Y, PAD_X+WIDTH*2+4,  "Rotate: UP");
     mvprintw(HEIGHT-2+PAD_Y, PAD_X+WIDTH*2+4,  "Drop: DOWN");
-    mvprintw(HEIGHT+-2+PAD_Y, PAD_X+WIDTH*2+4, "Quit:    Q");
+    mvprintw(HEIGHT-1+PAD_Y, PAD_X+WIDTH*2+4,  "Quit:    Q");
     
     refresh();
 }
